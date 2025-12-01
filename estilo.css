@@ -1,0 +1,99 @@
+h1 {
+    text-align: center;
+    color: #D3D3D3;
+}
+body{
+    background-color: #0d1117;
+    color: white; 
+    padding: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    color: #D3D3D3;
+    text-align: center;
+    padding: 5px;
+    margin-top: 0;
+
+}
+details{
+    background-color: #161b22;
+    border-radius: 15px;
+    margin: 10px;
+    color: #58a6ff;
+    font-weight: bold;
+    font-size: large;
+    
+    overflow: hidden; 
+}
+
+summary{
+    background-color: #161b22;
+    padding: 15px;
+    font-weight:bold;
+    cursor: pointer;
+    
+    list-style: none;
+    justify-content: space-between;
+    transition: background-color 0.3s; 
+}
+
+summary:hover {
+    background-color: #21262d; 
+}
+
+.periodo_conteudo{
+    padding: 20px; 
+   
+}
+
+.disciplina{
+    padding: 15px;
+    margin-bottom:15px;
+    
+    border-radius: 8px;
+    background-color:#21262d;
+    border: 1px solid #30363d; 
+    transition: transform 0.5s; 
+}
+
+.disciplina:hover {
+    border-color: #8b949e;
+}
+
+.disciplina h3{
+    margin-top: 0px;
+    padding: 5px;
+    color: aliceblue;
+    display: flex; 
+    align-items: center; 
+    
+}
+
+
+.tag-aprovado {
+    background-color: #238636; 
+    color: white;
+    font-size: 0.6em; 
+    padding: 2px 8px;
+    border-radius: 12px;
+    margin-left: 10px;
+    border: 1px solid rgba(255,255,255,0.2);
+    text-transform: uppercase;
+}
+
+ul{
+    padding-left: 15px;
+}
+
+li{
+    margin-bottom: 8px;
+}
+
+a{
+    text-decoration: none;
+    color: #58a6ff; 
+}
+a:hover{
+    color: #79c0ff;
+    text-decoration: underline;
+}
